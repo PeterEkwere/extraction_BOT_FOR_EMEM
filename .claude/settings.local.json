@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const p=require\\('./node_modules/p-queue/package.json'\\); console.log\\('version',p.version,'type',p.type,'main',p.main,'exports',JSON.stringify\\(p.exports\\)\\)\")"
+    ]
+  }
+}
